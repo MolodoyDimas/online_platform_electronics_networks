@@ -7,7 +7,7 @@ from rest_framework.exceptions import ValidationError, AuthenticationFailed
 from users.models import User
 
 
-class UserCreateSerializer(serializers.ModelSerializer):
+class CreateSerializer(serializers.ModelSerializer):
     email = serializers.EmailField(required=True)
     password = serializers.CharField(required=True, style={'input_type': 'password'})
 

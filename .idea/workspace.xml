@@ -4,14 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="82d1e90e-1552-4b5c-b8bf-1c2cec588eb3" name="Changes" comment="Подготовлена основа для разработки. Далее разработка продолжится в ветке Develop">
-      <change afterPath="$PROJECT_DIR$/users/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/users/urls.py" afterDir="false" />
+    <list default="true" id="82d1e90e-1552-4b5c-b8bf-1c2cec588eb3" name="Changes" comment="Подготовлено приложение Users, не выполненны миграции из-за ошибки">
+      <change afterPath="$PROJECT_DIR$/electronics/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/electronics/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/electronics/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/electronics/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +50,9 @@
         <option name="url" value="https://github.com/MolodoyDimas/online_platform_electronics_networks.git" />
       </UrlAndAccount>
     </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 2
@@ -116,11 +122,20 @@
       <option name="project" value="LOCAL" />
       <updated>1710782343151</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Подготовлено приложение Users, не выполненны миграции из-за ошибки">
+      <option name="closed" value="true" />
+      <created>1710786860639</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710786860639</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Подготовлена основа для разработки. Далее разработка продолжится в ветке Develop" />
-    <option name="LAST_COMMIT_MESSAGE" value="Подготовлена основа для разработки. Далее разработка продолжится в ветке Develop" />
+    <MESSAGE value="Подготовлено приложение Users, не выполненны миграции из-за ошибки" />
+    <option name="LAST_COMMIT_MESSAGE" value="Подготовлено приложение Users, не выполненны миграции из-за ошибки" />
   </component>
 </project>

@@ -4,12 +4,12 @@ from rest_framework.permissions import AllowAny
 from users.models import User
 from django.contrib.auth import login, logout
 from django.shortcuts import redirect
-from users.serializers import UserCreateSerializer, PublicListSerializer, LoginSerializer
+from users.serializers import CreateSerializer, PublicListSerializer, LoginSerializer
 from django.urls import reverse
 
 
 class CreateAPIView(generics.CreateAPIView):
-    serializer_class = UserCreateSerializer
+    serializer_class = CreateSerializer
     permission_classes = [AllowAny]
     queryset = User.objects.all()
 
@@ -18,7 +18,7 @@ class PublicListAPIView(generics.CreateAPIView):
     permission_classes = [AllowAny]
     queryset = User.objects.all()
 
-class LoginView(generics.GenericAPIView):
+class LoginAPIView(generics.GenericAPIView):
     serializer_class = LoginSerializer
 
     def create(self, request):
@@ -28,7 +28,7 @@ class LoginView(generics.GenericAPIView):
         return redirect(reverse('link-list'))
 
 
-class LogoutView(generics.GenericAPIView):
+class LogoutAPIView(generics.GenericAPIView):
     queryset = User.objects.all()
     serializer_class = PublicListSerializer
 

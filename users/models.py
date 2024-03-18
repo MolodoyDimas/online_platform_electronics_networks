@@ -9,7 +9,7 @@ class User(AbstractUser):
     Пароль
     '''
 
-    username= models.CharField(max_length=100, verbose_name='Имя пользователя')
+    username= models.CharField(max_length=100, unique=True, verbose_name='Имя пользователя')
     email = models.EmailField(unique=True, verbose_name='Email')
     password = models.CharField(max_length=30, verbose_name='Пароль')
 
